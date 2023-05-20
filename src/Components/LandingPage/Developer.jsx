@@ -39,13 +39,13 @@ function Developer() {
     >
       <div className="contentAndLinks">
         <p>
-          The TouchBase server and single page application was designed and
-          built from the ground up by software engineer{" "}
-          <span className="tColor">Anthony Vigliotta.</span>
+          The zkGPT team can be reached throughout out accounts and profiles on
+          various social media platforms.{" "} <br></br>
+          <span className="tColor">Reach out to us!</span>
           <br /> <br />
-          He felt as though this application fills a need that many job seekers,
-          including himself, were not getting in their search process:
-          organization.
+          zkGPT is a project that grows with its community
+          and we hope to deliver an amazing product that 
+          lives up to the current standards of DeFi enthusiasts.
         </p>
         <div className="middle">
           <motion.a

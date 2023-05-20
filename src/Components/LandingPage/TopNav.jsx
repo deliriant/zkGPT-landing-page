@@ -45,6 +45,12 @@ function TopNav() {
           <NavLink activeClassName="clickedLan" to="/developer">
             Socials
           </NavLink>
+          <a activeClassName="clickedLan" href="https://google.com" target="_blank" rel="noopener noreferrer">
+            Chatbot
+          </a>
+          <a activeClassName="clickedLan" href="https://google.com" target="_blank" rel="noopener noreferrer">
+            Docs
+          </a>
         </nav>
       </div>
     );

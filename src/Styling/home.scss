@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #141c39;
+}
+* {
+  box-sizing: border-box;
+}
+
+.landing {
+  background: #141c39;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+.logo {
+  width: 400px;
+  margin-bottom: -50px;
+  transition: 0.5s;
+}
+
+.homeBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+  transition: 0.5s;
+  align-items: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 5.6em;
+  text-decoration: none;
+  color: #35d3db;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  transition: 1s;
+  font-family: "Oswald", sans-serif;
+
+  .secondLine {
+    font-size: 1.4em;
+  }
+
+  .jobWord {
+    color: white;
+  }
+}
+
+.homeLinks {
+  display: flex;
+  margin: -30px;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: 1s;
+  z-index: 2;
+
+  .homeLink {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    transition: 1s;
+
+    i {
+      margin: 0 13px 8px 0;
+      font-size: 2.7em;
+      transition: 0.5s ease-in-out transform;
+    }
+
+    .fa-arrow-circle-down {
+      color: white;
+    }
+
+    .fa-clipboard-list {
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+      transition: 0.5s;
+      font-size: 2.1em;
+      line-height: 1.4;
+      font-family: "Oswald", sans-serif;
+    }
+
+    #log {
+      color: white;
+    }
+
+    #reg {
+      color: white;
+    }
+  }
+
+  .homeLink:hover {
+    i {
+      transition: 0.5s ease-in-out transform;
+      transform: translateY(5px);
+    }
+    #log {
+      color: rgb(116, 250, 255);
+      transition: 0.5s;
+    }
+
+    #reg {
+      color: rgb(116, 250, 255);
+      transition: 0.5s;
+    }
+  }
+}
+
+.preloader {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.5s;
+  opacity: 1;
+  width: 100%;
+  z-index: 200;
+}
+
+.preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.transition-group {
+  flex: 1;
+  position: relative;
+}
+
+.router {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-style: italic;
+  font-family: Times;
+  padding-top: 20px;
+}
+
+.fade-enter .page {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active .page {
+  opacity: 1;
+  transition: opacity 450ms ease-in;
+}

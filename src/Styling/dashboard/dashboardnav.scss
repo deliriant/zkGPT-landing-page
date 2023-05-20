@@ -1,0 +1,72 @@
+// main dashboard navigation and sign out button
+@import url("https://fonts.googleapis.com/css?family=Alata&display=swap");
+
+.dashboardNav {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid 1px rgba(128, 128, 128, 0.404);
+  width: 100%;
+  background: #141c39;
+  height: 90px;
+  position: fixed;
+  top: 0;
+
+  a {
+    letter-spacing: 0.8px;
+    font-size: 1.4em;
+    color: white;
+    transition: 0.5s ease-in-out font-size;
+  }
+
+  // active link class for dashboard
+
+  .clickedDash {
+    color: rgb(51, 189, 253);
+    font-size: 2em;
+    transition: 0.5s ease-in-out font-size;
+  }
+
+  a:hover {
+    color: rgb(51, 189, 253);
+    transition: 0.5s ease-in-out;
+  }
+
+  // logo
+  img {
+    width: 100px;
+    opacity: 1;
+  }
+
+  // sign out button
+  #signOutButton {
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+
+    i {
+      font-size: 2.1em;
+      color: white;
+      padding: 0;
+      margin: 0;
+      margin-top: 5px;
+      margin-right: -35px;
+      transition: 0.5s;
+    }
+
+    i:hover {
+      color: red;
+      transition: 0.5s;
+    }
+  }
+
+  .signOut {
+    transition: 0.5s;
+    color: rgb(240, 240, 240);
+    font-size: 0.7em;
+    margin: 0;
+    margin-left: 0;
+    font-family: "Alata", sans-serif;
+    letter-spacing: 1.3px;
+  }
+}

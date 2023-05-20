@@ -12,7 +12,7 @@ function Canvas() {
         params={{
           particles: {
             number: {
-              value: 150,
+              value: 200,
               density: {
                 enable: true,
                 value_area: 1000
@@ -38,7 +38,7 @@ function Canvas() {
               random: true,
               anim: {
                 enable: true,
-                speed: 1,
+                speed: 5,
                 opacity_min: 0.1,
                 sync: false
               }
@@ -67,7 +67,7 @@ function Canvas() {
             },
             move: {
               enable: true,
-              speed: 1,
+              speed: 5,
               direction: "none",
               random: false,
               straight: false,

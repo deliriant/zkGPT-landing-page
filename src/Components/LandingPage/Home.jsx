@@ -16,21 +16,21 @@ function Home() {
     >
       <img className="logo" src={logo} alt="logo" />
       <h1>
-        Your entire <span className="jobWord">job</span> search,
+        Your trusty <span className="jobWord">AI powered</span> token,
         <br />
-        <span className="secondLine">all in one place.</span>
+        <span className="secondLine">coming soon!</span>
       </h1>
       <div className="homeLinks">
         <div className="homeLink">
           <i className="fas fa-clipboard-list"></i>
           <NavLink id="reg" exact to="/register">
-            Register
+            Buy on UniSwap
           </NavLink>
         </div>
         <div className="homeLink">
           <i className="fas fa-arrow-circle-down"></i>
           <a id="log" href="/login">
-            Login
+            Docs
           </a>
         </div>
       </div>

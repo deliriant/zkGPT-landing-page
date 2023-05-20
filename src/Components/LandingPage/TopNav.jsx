@@ -34,16 +34,16 @@ function TopNav() {
         </nav>
         <nav>
           <NavLink activeClassName="clickedLan" to="/learn">
-            learn
+            Tokenomics
           </NavLink>
           <NavLink activeClassName="clickedLan" to="/demo">
-            demo
+            Roadmap
           </NavLink>
           <NavLink activeClassName="clickedLan" to="/support">
-            support
+            AI Power
           </NavLink>
           <NavLink activeClassName="clickedLan" to="/developer">
-            developer
+            Socials
           </NavLink>
         </nav>
       </div>
